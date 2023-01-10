@@ -1,0 +1,58 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 300px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 14px;
+}
+
+
+section form input{
+    width: 100%;
+    height: 150px;
+    font-size: 4rem;
+    text-align: right;
+    background-color: black;
+    color: azure;
+    border-radius: 14px;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buttons .btn{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-orange{
+    background-color: orange;
+    color: azure;
+}
+.btn-blue{
+    background-color: rgb(36, 193, 214);
+}
+.btn-red{
+    background-color: red;
+    color: azure;
+}
